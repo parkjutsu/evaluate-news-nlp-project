@@ -1,3 +1,7 @@
+// Use environment variables to hide personal API key
+const dotenv = require('dotenv');
+dotenv.config();
+
 var path = require('path')
 const express = require('express')
 const mockAPIResponse = require('./mockAPI.js')
