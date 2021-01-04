@@ -8,7 +8,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: '/\.js$/',
+                test: /\.js$/,
                 exclude: /node_modules/,
                 loader: "babel-loader"
             }
@@ -16,7 +16,9 @@ module.exports = {
     },
     plugins: [
         new HtmlWebPackPlugin({
+            // Which file to look at
             template: "./src/client/views/index.html",
+            // Generate a new file
             filename: "./index.html",
         })
     ]
