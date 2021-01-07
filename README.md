@@ -36,16 +36,25 @@ API_KEY=**************************
 ```
 
 ## Usage
-### Development Mode (Environment)
-Build and start the webpack dev server at port 8080
-npm run build-dev
 
-### Production Mode (Environment)
+### Development Mode
+
+Build and start the webpack dev server at port 8080
+```
+npm run build-dev
+```
+
+### Production Mode
+
 Generate a 'dist' folder for production
+```
 npm run build-prod
+```
 
 Run the Express server on port 8081
+```
 npm start
+```
 
 ## Built With
 
