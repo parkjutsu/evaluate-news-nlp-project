@@ -24,12 +24,12 @@ node -v
 git clone https://github.com/parkjutsu/evaluate-news-nlp-project.git
 ```
 
-3. Install project dependencies
+3. `cd` to the project folder and install project dependencies
 ```
 npm install
 ```
 
-4. Enter the API endpoint and key in the .env file
+4. Enter the API endpoint and your key in the .env file
 ```
 API_URL=**************************
 API_KEY=**************************
