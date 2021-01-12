@@ -7,10 +7,10 @@ import './styles/footer.scss'
 import './styles/form.scss'
 import './styles/header.scss'
 
-console.log(checkForName);
+// console.log(checkForName);
 
-alert("I EXIST")
-console.log("CHANGE!!");
+// alert("I EXIST")
+// console.log("CHANGE!!");
 
 // Exports the JavaScript files to the 'Client' library using Webpack
 export {
